@@ -1,0 +1,89 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0px 25px;
+}
+
+.card {
+    max-width: 400px;
+    height: 520px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    padding: 0 25px;
+    border: solid 1px hsl(0, 0%, 7%);
+    box-shadow: 8px 8px;
+}
+
+.card:hover {
+    box-shadow: 15px 15px;
+    transition: 0.6s;
+}
+
+.card .image-illustration {
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 25px;
+}
+
+.card .learning {
+    background-color: hsl(47, 88%, 63%);
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+.card .learning .learning-text {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.card .informations .publish {
+    font-size: 14px;
+}
+
+.card .informations .title-link .title {
+    font-size: 25px;
+    margin-top: 15px;
+    color: hsl(0, 0%, 7%);
+
+}
+
+.card .informations .title-link .title:hover {
+    color: hsl(47, 88%, 63%);
+    transition: 0.3s;
+}
+
+.card .informations .about {
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+    line-height: 23px;
+    margin-top: 15px;
+}
+
+.card .creator {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card .creator .avatar {
+    margin-right: 15px;
+    max-width: 35px;
+}
+
+.card .creator .name {
+    font-size: 14px;
+    font-weight: 800;
+}
